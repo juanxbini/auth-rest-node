@@ -15,8 +15,8 @@ Esta API REST proporciona un sistema de autenticación de usuarios utilizando **
 ## Instalación
 ### 1. Clonar el Repositorio
 ```sh
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+git clone https://github.com/juanxbini/auth-rest-node.git
+
 ```
 
 ### 2. Instalar Dependencias
