@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import authRoutes from './routes/auth.js';
+import authRoutes from './routes/authRoutes.js';
 
 // Configurar variables de entorno
 dotenv.config();
