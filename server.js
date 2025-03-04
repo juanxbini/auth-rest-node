@@ -2,7 +2,6 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import authRoutes from './routes/authRoutes.js';
 
 // Configurar variables de entorno
 dotenv.config();
@@ -14,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 // Rutas
-app.use('/api/auth', authRoutes);
+//app.use('/api/auth', authRoutes);
 
 // Conexión a MongoDB
 mongoose.connect(process.env.MONGO_URI, {
