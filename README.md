@@ -27,7 +27,7 @@ npm install
 ### 3. Configurar Variables de Entorno
 Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
 ```env
-MONGO_URI=mongodb+srv://usuario:contraseña@cluster.mongodb.net/miBaseDeDatos
+MONGO_URI=rutaDeAccesoDBMONGO
 JWT_SECRET=miClaveSecretaParaJWT
 PORT=3000
 ```
@@ -60,7 +60,9 @@ El servidor estará corriendo en `http://localhost:3000`.
   "token": "eyJhbGciOiJIUzI...",
   "user": {
     "id": "61234abcd567",
-    "email": "test@example.com"
+    "username": "name test",
+    "email": "test@example.com",
+    "rol": "user rol"
   }
 }
 ```
